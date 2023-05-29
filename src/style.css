@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* background-color: #85ead293; */
+  background-image: url(https://phonoteka.org/uploads/posts/2022-02/thumbs/1644350209_1-phonoteka-org-p-mnogo-kotikov-fon-1.jpg);
+  color: #000000;
+  line-height: 1.5;
+}
+
+#search-box {
+  font: inherit;
+  padding: 8px;
+  max-width: 600px;
+  margin-bottom: 16px;
+}
+
+.is-hidden{
+  display: none;
+  border: none;
+}
+
+.container{
+  padding: 15px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cat-info {
+  margin-top: 100px;
+  display: flex;
+  gap: 27px;
+  border-radius: 4px;
+}
+
+.open-box{
+  background-color: #fff;
+}
+
+.breed-select {
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(68, 68, 68);
+  margin-bottom: 40px;
+}
+
+.breed-select:hover {
+  border-bottom: 1px solid #85ead293;
+}
