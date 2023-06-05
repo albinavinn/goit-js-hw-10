@@ -4,10 +4,10 @@
 
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  /* background-color: #85ead293; */
-  background-image: url(https://phonoteka.org/uploads/posts/2022-02/thumbs/1644350209_1-phonoteka-org-p-mnogo-kotikov-fon-1.jpg);
-  color: #000000;
-  line-height: 1.5;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(88,151,251,1) 68%, rgba(0,212,255,1) 100%);  
+    color: #000000;
+    line-height: 1.5;
 }
 
 #search-box {
